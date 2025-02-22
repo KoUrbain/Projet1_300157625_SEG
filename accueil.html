@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klothes</title>
+    <title>Accueil - Klothes</title>
     <!-- Lien vers Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Lien vers ton fichier CSS -->
     <link rel="stylesheet" href="accueil.css">
 </head>
 <body>
-
     <!-- Navigation avec Bootstrap -->
     <header class="bg-success text-white py-3">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -21,13 +21,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#shop.html">Shop</a>
+                            <a class="nav-link active" href="shop.html">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="services.html">Nos Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="reservation.html">Réservation</a>
@@ -41,9 +38,35 @@
     <!-- Section principale de l'accueil -->
     <main class="container text-center py-5">
         <section id="hero">
-            <h1 class="display-4">KLOTHES</h1>
-            <p class="lead">Come as you are, leave better</p>
-            <a href="#shop" class="btn btn-success btn-lg">Browse our shop</a>
+            <h1 class="display-4">Bienvenue chez KLOTHES</h1><br><br>
+           <!-- Section de bienvenue -->
+    <section class="container py-5" id="welcome-section">
+        <div class="row text-center">
+            <div class="col-12">
+                
+                <p class="lead mt-3">Chez <strong>Klothes</strong>, nous croyons que les vêtements sont bien plus que de simples tissus : ils sont le reflet de qui vous êtes. Que vous soyez à la recherche des dernières tendances ou que vous souhaitiez quelque chose d'unique et sur mesure, nous avons ce qu'il vous faut.</p>
+                
+                <h3 class="mt-5">Explorez notre collection</h3>
+                <p>Parcourez notre sélection soigneusement choisie de pièces tendances qui vous feront vous sentir confiant et élégant.</p>
+                <a href="shop.html" class="btn btn-success btn-lg">Browse our shop</a>
+
+                <h3 class="mt-5">Couture sur mesure</h3>
+                <p>Si vous cherchez quelque chose de vraiment unique, notre service de couture sur mesure est là pour donner vie à vos rêves vestimentaires. Personne n'est pareil, alors vos vêtements ne devraient pas l'être non plus.</p>
+                <a href="reservation.html" class="btn btn-success btn-lg">Reserver une rencontre</a>
+
+                <h3 class="mt-5">Pourquoi choisir Klothes ?</h3>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-check-circle"></i> Des pièces tendance qui reflètent votre style personnel</li>
+                    <li><i class="bi bi-check-circle"></i> Des services personnalisés conçus spécialement pour vous</li>
+                    <li><i class="bi bi-check-circle"></i> Une expérience shopping qui s’adapte à votre emploi du temps chargé</li>
+                </ul>
+
+                <h4 class="mt-5">Rejoignez dès aujourd'hui la famille <strong>Klothes</strong>, et trouvez la coupe parfaite—tant en style qu’en vie.</h4>
+            </div>
+        </div>
+    </section>
+            <p class="display-4">Come as you are, leave better</p>
+            
         </section>
     </main>
 

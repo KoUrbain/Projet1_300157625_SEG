@@ -3,29 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Klothes</title>
+    <title>Nos Services - Klothes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="login.css">
-</head><section id="services" class="container py-5">
-    <h2 class="text-center">Nos services</h2>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="bg-success text-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="accueil.html">Klothes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="accueil.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="reservation.html">Réservation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h2 class="text-center">Nos services</h2><br>
     <div class="row text-center">
         <div class="col-md-6">
-            <h3>Achat de vêtements</h3>
-            <p>Explorez notre boutique pour trouver des vêtements à la mode, adaptés à vos besoins.</p>
-            <a href="#shop" class="btn btn-success">Accéder à la boutique</a>
+            <img src="shop.jpeg" alt="Achat de vêtements" class="img-fluid mb-3">
         </div>
         <div class="col-md-6">
-            <h3>Création de vêtements sur mesure</h3>
-            <p>Créez des vêtements qui vous ressemblent, parfaitement ajustés à votre morphologie.</p>
-            <a href="#reservation" class="btn btn-success">Réservez un rendez-vous</a>
+            <img src="download.jpeg" alt="Création de vêtements sur mesure" class="img-fluid mb-3">
         </div>
     </div>
-</section>
-<div class="row text-center">
-    <div class="col-md-6">
-        <img src="downloads.jpeg" alt="Achat de vêtements" class="img-fluid mb-3">
-    </div>
-    <div class="col-md-6">
-        <img src="sho.jpeg" alt="Création de vêtements sur mesure" class="img-fluid mb-3">
-    </div>
-</div>
+
+    <section id="services" class="container py-5">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <h3>Achat de vêtements</h3>
+                <p>Explorez notre boutique pour trouver des vêtements à la mode, adaptés à vos besoins.</p>
+                <a href="#shop" class="btn btn-success">Accéder à la boutique</a>
+            </div>
+            <div class="col-md-6">
+                <h3>Création de vêtements sur mesure</h3>
+                <p>Créez des vêtements qui vous ressemblent, parfaitement ajustés à votre morphologie.</p>
+                <a href="#reservation" class="btn btn-success">Réservez un rendez-vous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts nécessaires -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

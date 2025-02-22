@@ -1,14 +1,18 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #B58787;
+    background-image: url('acc3.png'); /* Path to your image */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 525px;
     margin: 0;
     padding: 0;
 }
 
 header {
-    
     padding: 10px 0;
     text-align: center;
+    
 }
 
 nav ul {
@@ -48,6 +52,6 @@ button {
 footer {
     text-align: center;
     padding: 20px;
-    
-    color: black
+    padding-top: 10px;
+    color: black;
 }
